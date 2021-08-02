@@ -3,6 +3,7 @@ root {
   height: 5382px;
 }
 html {
+  display: flex;
   width: 1600px;
   height: 5382px;
   background-color: #E5E5E5;
