@@ -11,7 +11,7 @@ const Header = () => {
     return(
         <div className="header-container">
             <div className="main-container">
-                <img className="background-img" src={image} alt="background-image"/>
+                <img className="background-img" src={image} alt="background"/>
                 <img className="logo-img" src={logo} alt="logo"/>
                 <p className="header-text">Your awesome traffic permit consultant.</p>
                 <Button className="get-started-button"/>

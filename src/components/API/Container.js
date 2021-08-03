@@ -33,10 +33,9 @@ const Container = ({items = [], multiSelect = false}) => {
     return (
         <div className="api-container">
             {
-                items.map((item, key) => {
-                    return (
-                        <div className="list-container">
-                            <ul key={item.id}>
+                items.map((item, index) => (
+                        <div className="list-container" key={index}>
+                            <ul key={item.id} >
                                 <div className="list-questions" tabIndex={0} onClick={() => {
                                     toogle(!open)
                                 }} role="button">
@@ -50,7 +49,7 @@ const Container = ({items = [], multiSelect = false}) => {
                             </ul>
                         </div>
                     )
-                })
+                )
             }
             <div className="load-more-container">
                 <span className="load-more">LOAD MORE</span>
