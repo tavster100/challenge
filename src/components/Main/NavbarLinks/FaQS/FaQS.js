@@ -20,7 +20,7 @@ const FaQS = () => {
                 <img className="faqs-background" src={coverImg} alt="cover-img"/>
                 <img className="faqs-image" src={faqsImg} alt="faq-img"/>
             </div>
-            <Container items={items}/>
+            <Container items={items} />
         </div>
     )
 }
